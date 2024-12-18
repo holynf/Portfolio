@@ -1,0 +1,14 @@
+name: setup-node
+description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js ⚙️
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Install dependencies 🔧
+      shell: bash
+      if: steps.cache_dependencies.outputs.cache-hit != 'true'
+      run: npm ci
