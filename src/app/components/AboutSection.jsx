@@ -14,10 +14,11 @@ const TAB_DATA = [
         <li>TypeScript</li>
         <li>JavaScript</li>
         <li>Node.js</li>
+        <li>python</li>
         <li>Express</li>
         <li>PostgreSQL</li>
         <li>MongoDB</li>
-        <li>python</li>
+        <li>Django(Rest Framework)</li>
       </ul>
     ),
   },
