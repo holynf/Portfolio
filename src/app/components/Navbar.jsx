@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import PhoneCallIcon from "../../../public/phone-call.svg";
+import Image from "next/image";
 
 const navLinks = [
   {
@@ -56,6 +58,12 @@ const Navbar = () => {
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
+            <li>
+              <Link href="Tel: +989023493683" className='flex items-center gap-2 text-white'>
+                <Image src={PhoneCallIcon} alt="Phone Call Icon" />
+                09023493683
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
