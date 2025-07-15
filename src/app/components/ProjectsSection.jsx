@@ -36,7 +36,7 @@ const projectsData = [
     id: 4,
     title: "Real State Website",
     description: "vipamlak.ir, NextJs",
-    image: "/images/projects/4.jpg",
+    image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
