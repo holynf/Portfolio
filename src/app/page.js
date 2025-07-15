@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 
 export const metadata = {
-    title: 'Abolfazl Safaei(FrontEnd Developer)',
+    title: 'Abolfazl Safaei (FrontEnd Developer)',
     description: 'FrontEnd Developer',
 }
 
