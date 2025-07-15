@@ -41,6 +41,7 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+
   {
     id: 5,
     title: "React Firebase Template",
